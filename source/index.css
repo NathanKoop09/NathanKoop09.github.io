@@ -1,0 +1,154 @@
+  body {
+    background-color: rgb(236, 236, 255)
+  }
+  
+  h1 {
+      color: red;
+  }
+
+  .Quote{
+    margin-top: 125px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 5px black, 8px 8px 10px rgb(131, 131, 255);
+  }
+
+  .image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .top-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+  }
+
+  .list-view {
+    display: grid;
+    align-items: start;
+    grid-template: 100px  / 50px 1fr;
+  }
+
+  .CardFont{
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+    color: red;
+  }
+
+  .SmallerName{
+    color: black;
+    text-shadow: none;
+  }
+  .name_intro{
+    text-shadow: 1px 1px 3px grey;
+    color: rgb(21, 0, 255);
+  }
+
+  .CardBold{
+    color: blue;
+    text-shadow: 0px 0px 3px cyan;
+  }
+
+  .background_color{
+    color: green;
+  }
+
+  .Title{
+    margin-top: 150px;
+    color: rgb(47, 0, 255);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px rgb(82, 82, 244);
+  }
+
+ /* Style the button that is used to open and close the collapsible content */
+ .collapsible {
+  background-color: #caddff;
+  color: #ff0000;
+  text-shadow: 1px 1px 3px black;
+  font-size: 25px;
+  cursor: pointer;
+
+  width: 100%;
+  border: none;
+  text-align: center;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+
+.gbutton{
+  transition: transform .2s;
+}
+.gbutton:hover{
+  transform:scale(1.1);
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  background-color: #e4e9f4;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+} 
+
+.game_title{
+  text-align: center;
+  padding-left: 0em;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: black;
+
+}
+
+.game_subtitle{
+  text-align: center;
+  width: 500px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 0em;
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+}
+
+.game_subtitle_bold{
+  color: blue;
+  text-shadow: 0px 0px 1px rgb(0, 195, 255);
+}
+
+.simulation_item{
+  display: flex;
+  direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-self: center;
+}
+.simulation_item:hover{
+  background-color: #ccc;
+}
+
+.list_title{
+  color: rgb(255, 0, 132);
+  text-shadow: 0px 0px 1px red;
+}
+
+.list_desc{
+  color: rgb(0,0,0);
+  padding-left: 1em;
+}
+
+.list_bold{
+  color: blue;
+  text-shadow: 0px 0px 1px rgb(0, 195, 255);
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Termino</title>
+    <link rel="stylesheet" href="./source/tm.css">
+    <link rel="icon" href="./images/tm_thumbnail.png">
+    <script src="source/ac.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="preload" href="RuachLetPlain.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+<body>
+    <!--Navigation bar-->
+    <nav class="bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200 nav-b">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div class="w-full flex justify-start">
+            <span class="self-center text-2xl font-semibold whitespace-nowrap underLineEffect" style="transform: translateY(-3px);" >Nathan Koop</span></a>
+        </div>
+
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky" style="padding-top: 10px; padding-left: 10px;">
+            <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
+            <li><a href="index.html#Home" class="cursor-pointer block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 ebutton">
+                <div class = "top-container">
+                    Home
+                </div></a>
+            </li>
+            <li><a href="index.html#Work"; class="cursor-pointer block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 ebutton">
+                <div class = "top-container">
+                    Projects
+                </div></a>
+            </li>
+            <li><a href="index.html#Contact" class="cursor-pointer block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 ebutton">
+                <div class = "top-container">
+                    Contact
+                </div></a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    
+    <h1 class="Header">Termino</h1>
+    <div style="display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; padding-left: 20px;">
+        <div style="width: 50%;">
+            <h2 class="subheader">Technical Details</h2>
+            <p class="para">
+                A bullet hell game written in Python where the game itself is printed to the terminal window. Each frame the window is cleared and the next frame is printed. The game uses an object oriented approach to deal with the five different spell cards and keeping track of the bullets on screen and their momentum. <br>
+Termino uses multi-threading in order to allow the input manager, bullet manager, and music player to all operate in parallel which results in an overall smoother gameplay experience. <br>
+The game has two different soundtracks it can play directly from the terminal, one for the menu and another for the game which are played using the winsound library. 
+            </p>
+            <h2 class="subheader">Project Description</h2>
+            <p class="para">
+                Play through an endless bullet hell game contained entirely in the terminal. There are five spell cards to survive, the more cards you survive, the faster the game goes. How far can you make it in the land of Termino?
+            </p>
+        </div>
+        <div style="width: 50%; margin-left: auto; margin-right: 0px;">
+            <iframe class="images"
+        src="https://www.youtube.com/embed/ZMxu_B4_2uY">
+            </iframe> 
+            <img src="./images/tm_sr/tm_1.png" class="images">
+            <img src="./images/tm_sr/tm_2.png" class="images">
+            <img src="./images/tm_sr/tm_3.png" class="images">
+            <img src="./images/tm_sr/tm_4.png" class="images">
+            <button class="download" onclick="window.open('https://hoodedkupo.itch.io/termino','_blank');">
+                Game Page
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>

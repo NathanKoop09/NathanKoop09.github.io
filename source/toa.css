@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Ruach LET';
+    src: url('../fonts/RuachLetPlain.eot');
+    src: url('../fonts/RuachLetPlain.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RuachLetPlain.woff2') format('woff2'),
+        url('../fonts/RuachLetPlain.woff') format('woff'),
+        url('../fonts/RuachLetPlain.svg#RuachLetPlain') format('svg');
+    src: url('../fonts/RuachLet.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+  
+  body{
+    background-color: black;
+  }
+
+  .top-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+  }
+
+.Header {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Ruach LET';
+    color: rgb(255, 255, 0);
+    text-shadow: 10px 10px 5px rgb(54, 54, 54);
+}
+
+.subheader{
+    font-size: 50px;
+    margin-top: 10px;
+    color: rgb(177, 177, 0);
+    text-shadow: 10px 10px 5px rgb(54, 54, 54);
+}
+
+.para{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    color: rgb(153, 153, 0);
+    text-shadow: 5px 5px 3px rgb(54, 54, 54);
+}
+
+.images{
+    width: 50%; 
+    height: auto; 
+    margin-left: auto; 
+    margin-right: 10%; 
+    border-radius: 15px;
+    padding-top: 5px;
+}
+
+.download{
+    background-color: rgb(255, 221, 0);
+    margin-left: 50%;
+    margin-right: 10%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    width: 25%;
+    height: auto;
+    color:rgb(226, 98, 43)
+}
+
+.download:hover{
+    background-color: rgb(255, 174, 0);
+    margin-left: 50%;
+    margin-right: 10%;
+    margin-top: 15px;
+    border-radius: 15px;
+    width: 25%;
+    height: auto;
+    color:rgb(226, 98, 43)
+}
