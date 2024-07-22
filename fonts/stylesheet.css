@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Ruach LET';
+    src: url('RuachLetPlain.eot');
+    src: url('RuachLetPlain.eot?#iefix') format('embedded-opentype'),
+        url('RuachLetPlain.woff2') format('woff2'),
+        url('RuachLetPlain.woff') format('woff'),
+        url('RuachLetPlain.svg#RuachLetPlain') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
