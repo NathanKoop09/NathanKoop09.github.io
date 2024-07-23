@@ -64,9 +64,6 @@ function adjust_objects(){
             spawned_objects.splice(i,1);
             return;
         }
-        if(i==0){
-            console.log(e.style.left, e.style.top);
-        }
         var x = Number(e.style.left.slice(0,e.style.left.length-2));
         var y = Number(e.style.top.slice(0,e.style.top.length-2));
         var w = Math.floor(document.body.offsetWidth*spawned_objects[i].start_width_ratio);

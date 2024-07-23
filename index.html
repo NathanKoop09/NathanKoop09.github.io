@@ -99,7 +99,7 @@
   <h1 class = "Title" style="font-size: 70px;">
     Projects
   </h1>
-  <div class="flex mx-auto container" style="width: 100%;margin-left: auto;margin-right: auto;height: 50px;">
+  <div class="flex mx-auto container" style="width: 90%;margin-left: auto;margin-right: auto;height: 50px;">
     <!--<img src="./images/ac_cat.png" class = "flex-none w-16">-->
     <button id = "expand_unity" class="collapsible" onclick="on_expand_unity()">
       Unity Games
@@ -177,7 +177,7 @@
 
 
   <div style="padding-top: 1em;"></div>
-  <div class="flex  mx-auto container" style="width: 100%;margin-left: auto;margin-right: auto;height: 50px;">
+  <div class="flex  mx-auto container" style="width: 90%;margin-left: auto;margin-right: auto;height: 50px;">
     <!--<img src="images/T.png" class = "flex-none w-16">-->
     <button id = "expand_game" class="collapsible" onclick="on_expand_games()">
       Other Games
@@ -204,37 +204,45 @@
     </div>
     
     </div>
-  </div> 
+
+    <div style="padding-top: 1em;"></div>
+
+    <div class="flex  mx-auto container" style="width: 90%;margin-left: auto;margin-right: auto;height: 50px;">
+      <!--<img src="images/T.png" class = "flex-none w-16">-->
+      <button id = "expand_simulation" class="collapsible" onclick="on_expand_simulation()">
+        Simulations
+      </button>
+      <!--<img src="images/lava.png" class = "flex-none w-16">-->
+    </div>
+    <div id = "content_simulation" class="content">
+      <!--SIMULATION PROJECTS WINDOW-->
+      <button class="simulation_item" onclick="window.open('https://github.com/NathanKoop09/CC1350_Networking_with_Dynamic_Source_Routing','_blank');">
+        <p class="list_title">Micro Controller Networking: </p>
+        <p class="list_desc">A <span class="list_bold">Peer to Peer Network</span> between <span class="list_bold">CC1350 microcontrollers</span> using a <span class="list_bold">Dynamic Source Routing</span> protocol.</p>
+      </button>
+      <button class="simulation_item" onclick="window.open('https://github.com/NathanKoop09/Simulated_Process_Manager_With_Server_Client_Relations','_blank');">
+        <p class="list_title">Process Manager with Client Support: </p>
+        <p class="list_desc">Uses <span class="list_bold">Multithreading</span> and <span class="list_bold">Interrupt signals</span> to create and monitor processes indicated by user input across the <span class="list_bold">server socket</span> in the linux environment.</p>
+      </button>
+      <button class="simulation_item" onclick="window.open('https://github.com/NathanKoop09/Peep_Block_Chain','_blank');">
+        <p class="list_title">Peep Block Chain: </p>
+        <p class="list_desc">Uses <span class="list_bold">Blockchain Technology</span> to <span class="list_bold">store and verify</span> transactions performed on the peep: a 256 character long ledger.</p>
+      </button>
+      <button class="simulation_item" onclick="window.open('https://github.com/NathanKoop09/Simulated_memory_manager','_blank');">
+        <p class="list_title">Memory Manager: </p>
+        <p class="list_desc">Uses <span class="list_bold">Low-level memory address manipulation</span> to create a memory manager complete with a <span class="list_bold">memory allocation and freeing function.</span></p>
+      </button>
+      <button class="simulation_item" onclick="window.open('https://github.com/NathanKoop09/Directory_Scanner','_blank');">
+        <p class="list_title">Directory Scanner: </p>
+        <p class="list_desc">Reads in the <span class="list_bold">raw data</span> of all files in a given directory to determine the true file type of each file.</p>
+      </button>
+    </div> 
 
 
-  <div style="display: flex; flex-direction: row; width: 100%;">
-    <button id = "expand_simulation" class="collapsible" onclick="on_expand_simulation()" style="width: 87%; margin-left: auto; margin-right: auto;">
-      Simulations
-    </button>
-  </div>
-  <div id = "content_simulation" class="content">
-    <!--SIMULATION PROJECTS WINDOW-->
-    <button class="simulation_item" onclick="window.open('https://github.com/NathanKoop09/CC1350_Networking_with_Dynamic_Source_Routing','_blank');">
-      <p class="list_title">Micro Controller Networking: </p>
-      <p class="list_desc">A <span class="list_bold">Peer to Peer Network</span> between <span class="list_bold">CC1350 microcontrollers</span> using a <span class="list_bold">Dynamic Source Routing</span> protocol.</p>
-    </button>
-    <button class="simulation_item" onclick="window.open('https://github.com/NathanKoop09/Simulated_Process_Manager_With_Server_Client_Relations','_blank');">
-      <p class="list_title">Process Manager with Client Support: </p>
-      <p class="list_desc">Uses <span class="list_bold">Multithreading</span> and <span class="list_bold">Interrupt signals</span> to create and monitor processes indicated by user input across the <span class="list_bold">server socket</span> in the linux environment.</p>
-    </button>
-    <button class="simulation_item" onclick="window.open('https://github.com/NathanKoop09/Peep_Block_Chain','_blank');">
-      <p class="list_title">Peep Block Chain: </p>
-      <p class="list_desc">Uses <span class="list_bold">Blockchain Technology</span> to <span class="list_bold">store and verify</span> transactions performed on the peep: a 256 character long ledger.</p>
-    </button>
-    <button class="simulation_item" onclick="window.open('https://github.com/NathanKoop09/Simulated_memory_manager','_blank');">
-      <p class="list_title">Memory Manager: </p>
-      <p class="list_desc">Uses <span class="list_bold">Low-level memory address manipulation</span> to create a memory manager complete with a <span class="list_bold">memory allocation and freeing function.</span></p>
-    </button>
-    <button class="simulation_item" onclick="window.open('https://github.com/NathanKoop09/Directory_Scanner','_blank');">
-      <p class="list_title">Directory Scanner: </p>
-      <p class="list_desc">Reads in the <span class="list_bold">raw data</span> of all files in a given directory to determine the true file type of each file.</p>
-    </button>
+
+
   </div> 
+
 </div>
 
 
